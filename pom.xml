@@ -17,8 +17,8 @@
 
     <modules>
         <module>api</module>
-        <module>service</module>
         <module>domain</module>
+        <module>service</module>
     </modules>
 
     <dependencyManagement>
@@ -26,18 +26,18 @@
             <!-- Project dependencies -->
             <dependency>
                 <groupId>com.switchfully.springboot.exchange</groupId>
-                <artifactId>api</artifactId>
-                <version>${project.version}</version>
+                <artifactId>api-module</artifactId>
+                <version>1.0</version>
             </dependency>
             <dependency>
                 <groupId>com.switchfully.springboot.exchange</groupId>
-                <artifactId>service</artifactId>
-                <version>${project.version}</version>
+                <artifactId>service-module</artifactId>
+                <version>1.0</version>
             </dependency>
             <dependency>
                 <groupId>com.switchfully.springboot.exchange</groupId>
-                <artifactId>domain</artifactId>
-                <version>${project.version}</version>
+                <artifactId>domain-module</artifactId>
+                <version>1.0</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
