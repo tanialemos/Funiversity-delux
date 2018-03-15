@@ -41,7 +41,7 @@ public class Repository {
         barabas = new Professor("Barabas", "Van Suske en Wiske");
     }
 
-    public Map<Integer, Professor> getProfessors() {
+    public  Map<Integer, Professor> getProfessors() {
         return professors;
     }
 
@@ -63,7 +63,7 @@ public class Repository {
         professor.setLastName(newLastName);
     }
 
-    public Professor getProfessor(int id) {
+    public  Professor getProfessor(int id) {
         return professors.get(id);
     }
 }
