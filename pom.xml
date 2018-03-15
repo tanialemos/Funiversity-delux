@@ -19,6 +19,7 @@
         <module>api</module>
         <module>domain</module>
         <module>service</module>
+        <module>jar</module>
     </modules>
 
     <dependencyManagement>
@@ -37,6 +38,11 @@
             <dependency>
                 <groupId>com.switchfully.springboot.exchange</groupId>
                 <artifactId>domain-module</artifactId>
+                <version>1.0</version>
+            </dependency>
+            <dependency>
+                <groupId>com.switchfully.springboot.exchange</groupId>
+                <artifactId>jar-module</artifactId>
                 <version>1.0</version>
             </dependency>
         </dependencies>
