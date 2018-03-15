@@ -1,12 +1,10 @@
-package be.dihertalem.funiversity.domain;
+package be.dihertalem.funiversity.api;
+
+import be.dihertalem.funiversity.domain.Professor;
 
 public class ProfessorMapper {
 
-    public static Professor professorMapper(ProfessorDto professorDto) {
-        return new Professor(professorDto.getFirstName(), professorDto.getLastName());
-    }
-
     public static ProfessorDto professorMapper(Professor professor) {
-        return new ProfessorDto(professor.getFirstName(), professor.getLastName());
+        return new ProfessorDto(professor.getId(), professor.getFirstName(), professor.getLastName());
     }
 }
