@@ -26,7 +26,7 @@
         <dependencies>
             <!-- Project dependencies -->
             <dependency>
-                <groupId>com.switchfully.springboot.exchange</groupId>
+                <groupId>be.dihertalem.funiversity</groupId>
                 <artifactId>api-module</artifactId>
                 <version>1.0</version>
             </dependency>

@@ -20,7 +20,6 @@
         <dependency>
             <groupId>be.dihertalem.funiversity</groupId>
             <artifactId>api-module</artifactId>
-            <version>1.0</version>
         </dependency>
     </dependencies>
 

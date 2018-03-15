@@ -3,8 +3,10 @@ package be.dihertalem.funiversity.service;
 import be.dihertalem.funiversity.domain.Professor;
 import be.dihertalem.funiversity.domain.Repository;
 
+import javax.inject.Named;
 import java.util.Map;
 
+@Named
 public class Service {
 
     Repository repo = new Repository();
