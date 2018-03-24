@@ -1,6 +1,7 @@
 package be.dihertalem.funiversity.domain.courses;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class CourseRepository {
 
@@ -34,8 +35,12 @@ public class CourseRepository {
     }
 
     public List<Course> getCourseByCategory(CourseCategory courseCategory){
-        List<Course> courseList = new ArrayList<Course>(courseRepository.values().);
-        return courseList.stream()
-                .
+        return courseRepository.values().stream()
+                .filter(x -> x.getCourseCategory().equals(courseCategory))
+                .collect(Collectors.toList());
+    }
+
+    public void addCourseToRepository(Course course){
+        courseRepository.put(course.getId(), course);
     }
 }
