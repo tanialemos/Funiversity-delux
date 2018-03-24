@@ -21,8 +21,7 @@ public class CourseMapper {
                 courseDto.getName(),
                 courseDto.getStudyPoints(),
                 CourseCategory.valueOf(courseDto.getCourseCategory())
-                )
-                ;
+                );
     }
 
 }
