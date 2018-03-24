@@ -1,10 +1,9 @@
-package be.dihertalem.funiversity.domain;
+package be.dihertalem.funiversity.domain.professors;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Repository {
+public class ProfessorRepository {
 
     private Map<Integer, Professor> professors ;
     private Professor albert;
@@ -15,7 +14,7 @@ public class Repository {
     private Professor gobelijn;
     private Professor barabas;
 
-    public Repository() {
+    public ProfessorRepository() {
         professors = new HashMap<Integer, Professor>();
         createProfessors();
         addProfessorsToDatabase();

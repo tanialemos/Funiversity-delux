@@ -13,11 +13,11 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="api" target="1.6" />
-      <module name="domain" target="1.6" />
-      <module name="Funiversity-delux" target="1.6" />
-      <module name="jar" target="1.6" />
-      <module name="service" target="1.6" />
+      <module name="api" target="1.8" />
+      <module name="domain" target="1.8" />
+      <module name="Funiversity-delux" target="1.8" />
+      <module name="jar" target="1.8" />
+      <module name="service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

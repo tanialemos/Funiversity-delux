@@ -1,6 +1,6 @@
 package be.dihertalem.funiversity.api;
 
-import be.dihertalem.funiversity.domain.Professor;
+import be.dihertalem.funiversity.domain.professors.Professor;
 import be.dihertalem.funiversity.service.Service;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.inject.Inject;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 
 @RestController
 @RequestMapping(path = "/professors")

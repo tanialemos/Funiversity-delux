@@ -1,4 +1,4 @@
-package be.dihertalem.funiversity.domain;
+package be.dihertalem.funiversity.domain.professors;
 
 import java.util.Random;
 

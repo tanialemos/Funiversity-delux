@@ -1,6 +1,6 @@
 package be.dihertalem.funiversity.api;
 
-import be.dihertalem.funiversity.domain.Professor;
+import be.dihertalem.funiversity.domain.professors.Professor;
 
 public class ProfessorMapper {
 

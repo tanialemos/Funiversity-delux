@@ -1,7 +1,7 @@
 package be.dihertalem.funiversity.service;
 
-import be.dihertalem.funiversity.domain.Professor;
-import be.dihertalem.funiversity.domain.Repository;
+import be.dihertalem.funiversity.domain.professors.Professor;
+import be.dihertalem.funiversity.domain.professors.ProfessorRepository;
 
 import javax.inject.Named;
 import java.util.Map;
@@ -9,7 +9,7 @@ import java.util.Map;
 @Named
 public class Service {
 
-    Repository repo = new Repository();
+    ProfessorRepository repo = new ProfessorRepository();
 
     public Map<Integer, Professor> getProfessors(){
         try {
