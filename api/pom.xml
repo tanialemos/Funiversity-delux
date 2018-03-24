@@ -19,7 +19,7 @@
         </dependency>
         <dependency>
             <groupId>be.dihertalem.funiversity</groupId>
-            <artifactId>service-module</artifactId>
+            <artifactId>Service-module</artifactId>
             <version>1.0</version>
         </dependency>
         <dependency>

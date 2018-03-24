@@ -18,7 +18,7 @@
     <modules>
         <module>api</module>
         <module>domain</module>
-        <module>service</module>
+        <module>Service</module>
         <module>jar</module>
     </modules>
 
@@ -32,7 +32,7 @@
             </dependency>
             <dependency>
                 <groupId>com.switchfully.springboot.exchange</groupId>
-                <artifactId>service-module</artifactId>
+                <artifactId>professorService-module</artifactId>
                 <version>1.0</version>
             </dependency>
             <dependency>

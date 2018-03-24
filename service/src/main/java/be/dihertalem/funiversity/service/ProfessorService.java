@@ -7,7 +7,7 @@ import javax.inject.Named;
 import java.util.Map;
 
 @Named
-public class Service {
+public class ProfessorService {
 
     ProfessorRepository repo = new ProfessorRepository();
 
