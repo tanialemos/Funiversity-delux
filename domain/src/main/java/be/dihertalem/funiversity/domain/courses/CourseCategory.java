@@ -11,4 +11,8 @@ public enum CourseCategory {
     CourseCategory(String fullName){
         this.fullName = fullName;
     }
+
+    public String getFullName() {
+        return fullName;
+    }
 }

@@ -1,4 +1,4 @@
-package be.dihertalem.funiversity.api;
+package be.dihertalem.funiversity.api.professors;
 
 public class ProfessorDto {
 

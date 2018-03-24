@@ -1,7 +1,7 @@
-package be.dihertalem.funiversity.api;
+package be.dihertalem.funiversity.api.professors;
 
 import be.dihertalem.funiversity.domain.professors.Professor;
-import be.dihertalem.funiversity.service.ProfessorService;
+import be.dihertalem.funiversity.service.professors.ProfessorService;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

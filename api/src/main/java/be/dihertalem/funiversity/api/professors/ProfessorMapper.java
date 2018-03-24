@@ -1,4 +1,4 @@
-package be.dihertalem.funiversity.api;
+package be.dihertalem.funiversity.api.professors;
 
 import be.dihertalem.funiversity.domain.professors.Professor;
 

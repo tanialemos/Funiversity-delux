@@ -3,6 +3,7 @@ package be.dihertalem.funiversity.domain.professors;
 import java.util.HashMap;
 import java.util.Map;
 
+
 public class ProfessorRepository {
 
     private Map<Integer, Professor> professors ;

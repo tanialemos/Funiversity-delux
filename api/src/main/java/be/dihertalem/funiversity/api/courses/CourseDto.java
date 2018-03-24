@@ -1,16 +1,14 @@
-package be.dihertalem.funiversity.domain.courses;
+package be.dihertalem.funiversity.api.courses;
 
-import java.util.UUID;
-
-public class Course {
+public class CourseDto {
 
     private String id;
     private String name;
     private int studyPoints;
-    public CourseCategory courseCategory;
+    private String courseCategory;
 
-    public Course(String name, int studyPoints, CourseCategory courseCategory) {
-        this.id = UUID.randomUUID().toString();
+    public CourseDto(String id, String name, int studyPoints, String courseCategory) {
+        this.id = id;
         this.name = name;
         this.studyPoints = studyPoints;
         this.courseCategory = courseCategory;
@@ -28,7 +26,7 @@ public class Course {
         return studyPoints;
     }
 
-    public CourseCategory getCourseCategory() {
+    public String getCourseCategory() {
         return courseCategory;
     }
 }

@@ -1,8 +1,10 @@
 package be.dihertalem.funiversity.domain.courses;
 
+import javax.inject.Named;
 import java.util.*;
 import java.util.stream.Collectors;
 
+@Named
 public class CourseRepository {
 
     private Map<String, Course> courseRepository;

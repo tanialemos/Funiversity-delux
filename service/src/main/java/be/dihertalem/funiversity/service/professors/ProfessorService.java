@@ -1,4 +1,4 @@
-package be.dihertalem.funiversity.service;
+package be.dihertalem.funiversity.service.professors;
 
 import be.dihertalem.funiversity.domain.professors.Professor;
 import be.dihertalem.funiversity.domain.professors.ProfessorRepository;
