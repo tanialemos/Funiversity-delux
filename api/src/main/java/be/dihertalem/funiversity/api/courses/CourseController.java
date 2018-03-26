@@ -23,7 +23,7 @@ public class CourseController {
         this.courseMapper = courseMapper;
     }
 
-    @GetMapping(path="/all_courses")
+    @GetMapping(path="/all_courses", produces = "application/json")
     @ResponseStatus(HttpStatus.OK)
     public List<CourseDto> getAllCourses(){
         List<CourseDto> dtoList = new ArrayList<>();
@@ -33,7 +33,7 @@ public class CourseController {
         return dtoList;
     }
 
-    @GetMapping(path="/{category}")
+    @GetMapping(path="/{category}", produces = "application/json")
     @ResponseStatus(HttpStatus.OK)
     public List<CourseDto> getCourseByCategory(@PathVariable String category){
         List<CourseDto> dtoList = new ArrayList<>();
@@ -41,6 +41,13 @@ public class CourseController {
             dtoList.add(courseMapper.mapCourseToDto(course));
         }
         return dtoList;
+    }
+
+    @PostMapping(path="create_course", produces = "application/json", consumes = "application/json")
+    @ResponseStatus(HttpStatus.CREATED)
+    public CourseDto createCourse(@RequestBody CourseDto courseDto){
+        coursesService.addNewCourse(courseMapper.mapDtoToCourse(courseDto));
+        return courseDto;
     }
 
 }

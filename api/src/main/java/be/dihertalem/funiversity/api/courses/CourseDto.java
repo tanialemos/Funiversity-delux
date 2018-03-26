@@ -7,6 +7,9 @@ public class CourseDto {
     private int studyPoints;
     private String courseCategory;
 
+    public CourseDto() {
+    }
+
     public CourseDto(String id, String name, int studyPoints, String courseCategory) {
         this.id = id;
         this.name = name;
